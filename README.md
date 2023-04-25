@@ -2,8 +2,8 @@
 
 This work is based on the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) and [MixSTE](https://github.com/JinluZhang1126/MixSTE), and you can get more help there.
 
-<p align="center"> <img src="./figure/pose.gif" width="80%"> </p> 
-<p align="center"> Visualization of our method and ground truth on Human3.6M </p>
+<p align="center"> <img src="./figure/pose.gif" width="100%"> </p> 
+<p align="center"> Test on Human3.6M </p>
 
 ## Environment
 
@@ -36,10 +36,6 @@ Training FMFormer with GPUs:
 ```bash
 python run.py -k cpn_ft_h36m_dbb -f 243 -s 243 --edgepad 81 -l log/run -c checkpoint -gpu 0,1
 ```
-
-# Visulization
-
-Please refer to the https://github.com/facebookresearch/VideoPose3D#visualization.
 
 ## Acknowledgement
 
