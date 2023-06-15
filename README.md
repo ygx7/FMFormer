@@ -1,4 +1,4 @@
-# FMFormer: Feature-padded Multi-scale Transformer for Monocular 3D Human Pose Estimation
+# FMFormer: Frame-padded Multi-scale Transformer for Monocular 3D Human Pose Estimation
 
 This work is based on the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) and [MixSTE](https://github.com/JinluZhang1126/MixSTE), and you can get more help there.
 
